@@ -1,0 +1,32 @@
+{
+  "name": "littleslideshow",
+  "version": "0.0.2",
+  "description": "Little Slideshow is a simple slideshow developed in jQuery and works with Bootstrap.",
+  "private": "true",
+  "scripts": {
+    "dev": "npm run development",
+    "prod": "npm run production",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --config webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-apps/LittleSlideshow.git"
+  },
+  "author": "Little Apps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/little-apps/LittleSlideshow/issues"
+  },
+  "homepage": "https://github.com/little-apps/LittleSlideshow#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "css-loader": "^6.6.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
