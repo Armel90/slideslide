@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Armel90/slidelide.git'
+                git 'https://github.com/Armel90/slideslide.git'
             }
         }
 
